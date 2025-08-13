@@ -14,7 +14,7 @@ submitButton.onclick = function(){
     } else if (Age < 18){
         result.textContent = "You are a minor";
     }else if (Age >=18){
-        result.textContent = "You are and adult";
+        result.textContent = "You are an adult";
     }else{
         result.textContent = "please enter a valid age";
     }
